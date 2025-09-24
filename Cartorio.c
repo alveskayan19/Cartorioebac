@@ -131,7 +131,7 @@ int main()//ponto de partida para execução do programa
 	int opcao=0; //definindo variaveis
 	int laco=1;
 	
-	for(laco=1;laco=1;)
+	for(laco=1; laco==1;)
 	{
 		
 		system("cls");
@@ -142,8 +142,8 @@ int main()//ponto de partida para execução do programa
 		printf("Escolha a opcao deseja do menu:\n\n");
 		printf("\t1 - Registrar nomes\n");
 		printf("\t2 - Consultar nomes\n");
-		printf("\t3 - Deletar nomes\n\n");
-		printf("\t4 - voltar para menu principal\n\n");
+		printf("\t3 - Deletar nomes\n");
+		printf("\t4 - Sair do Sistema\n\n");
 		printf("opcao: "); //fim  do menu
 	
 		scanf("%d", &opcao); // armazenando a escolha do usuario
